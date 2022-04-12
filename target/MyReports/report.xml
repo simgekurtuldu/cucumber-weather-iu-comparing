@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.265">
+    <testcase classname="Hava durumu Api'si kullanarak parametre olarak verilen sehir ve gün bilgilerine uygun hava durumunu alma" name="API ile hava durumu tahmini alma" time="1.411">
+        <system-out>
+            <![CDATA[When "edirne" 32 bilgilerine göre request atildiginda.......................passed
+Then Dort gunluk hava durumu tahmini gelmis olmalidir.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hava durumu Api'si kullanarak parametre olarak verilen sehir ve gün bilgilerine uygun hava durumunu alma" name="Google'dan sehre ve gune uygun hava durumu bilgisini alma" time="9.441">
+        <system-out>
+            <![CDATA[Given google.com sitesine gidilmis olmalidir................................passed
+When Arama kismina "edirne" hava durumu yazildigi zaman.....................passed
+And 4. gunun hava durumuna bakildiginda.....................................passed
+Then Uygun hava durumu gelmis olmalidir.....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
